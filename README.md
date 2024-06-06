@@ -21,7 +21,7 @@ The project utilizes a comprehensive SSVEP dataset, which has been converted int
 
 ## Getting Started
 
-To begin using this project, clone the repository and follow the installation instructions below.
+To begin using this project, clone the repository and follow the installation instructions below. The list of packages will become available.
 
 ```bash
 git clone git@github.com:hesamjafarian/SSVEP.git

@@ -27,3 +27,13 @@ To begin using this project, clone the repository and follow the installation in
 git clone git@github.com:hesamjafarian/SSVEP.git
 cd SSVEP
 pip install -r requirements.txt
+```
+
+## Canonical Correlation Analysis Matrix
+![snapshot1](screenshots/CCA_Matrix.PNG)
+
+## Canonical Correlation Sample A1
+![snapshot1](screenshots/First_Pair_Canonical_Variable.PNG)
+
+## Canonical Correlation Sample A1
+![snapshot1](screenshots/First_Pair_Canonical_Variable.PNG)

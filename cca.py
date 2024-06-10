@@ -90,7 +90,3 @@ sns.heatmap(correlation_matrix, annot=True, cmap='Set2', xticklabels=[
 			'X_c1', 'X_c2'], yticklabels=['Y_c1', 'Y_c2'])
 plt.title('Canonical Variables Correlation Matrix')
 plt.show()
-
-
-## Start State (green board)
-![snapshot1](snapshots/snapshot1.png)

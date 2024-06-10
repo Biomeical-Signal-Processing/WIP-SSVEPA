@@ -28,6 +28,8 @@ git clone git@github.com:hesamjafarian/SSVEP.git
 cd SSVEP
 pip install -r requirements.txt
 ```
+## Demonstration of EEG signal analysis using Canonical Correlation Analysis
+![snapshot1](screenshots/multi_channel_EEG_Signal_and_CCA.PNG)
 
 ## Canonical Correlation Analysis Matrix
 ![snapshot1](screenshots/CCA_Matrix.PNG)

@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ![snapshot1](screenshots/First_Pair_Canonical_Variable.PNG)
 
 ## Canonical Correlation Sample A2
-![snapshot1](screenshots/Second_Pair_Canonical_Variable)
+![snapshot1](screenshots/Second_Pair_Canonical_Variable.PNG)
 
 ## Canonical Correlation Sample B1
 ![snapshot1](screenshots/First_Pair_Canonical_Variable_2.PNG)

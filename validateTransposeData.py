@@ -15,3 +15,6 @@ for i in range(1, 36):
                 print(f"Dataset '{dataset_name}' not found in the file.")
     except OSError as e:
         print(f"Error opening file: {e}")
+
+# In windows you can remove all transposed_ name frome the files with the follwoing in the powershell
+#  Get-ChildItem "transposed_*" | Rename-Item -NewName {$_.Name -replace 'transposed_',''}

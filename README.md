@@ -18,7 +18,7 @@ This project is currently in a work-in-progress stage. We are continuously refin
 The project utilizes a comprehensive SSVEP dataset, which has been converted into the `.h5` format to improve compatibility and performance in Python environments:
 - **Description**: EEG recordings from subjects exposed to LED stimuli at varied frequencies. The data is now available in `.h5` format, allowing for efficient handling and processing in Python, alongside traditional MATLAB scripts.
 - **Access**: The package provides the dataset.
-- **Download: You can download data from http://biosigpro.xyz/overview.html#dataset 
+- **Download**: You can download data from http://biosigpro.xyz/overview.html#dataset 
 
 ## Getting Started
 

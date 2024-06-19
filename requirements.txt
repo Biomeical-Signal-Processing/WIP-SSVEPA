@@ -4,3 +4,4 @@ scikit-learn
 matplotlib
 seaborn
 qiskit
+h5py

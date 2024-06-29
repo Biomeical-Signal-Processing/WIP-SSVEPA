@@ -26,8 +26,8 @@ The project utilizes a comprehensive SSVEP dataset, which has been converted int
 To begin using this project, clone the repository and follow the installation instructions below. The list of packages will become available.
 
 ```bash
-git clone git@github.com:hesamjafarian/SSVEP.git
-cd SSVEP
+git clone git@github.com:Biomeical-Signal-Processing/WIP-SSVEPA.git
+cd WIP-SSVEPA
 pip install -r requirements.txt
 ```
 ## Demonstration of EEG signal analysis using Canonical Correlation Analysis

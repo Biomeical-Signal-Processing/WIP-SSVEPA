@@ -31,8 +31,8 @@ list_of_files = [
     "templates/index.html",
 ]
 
-for filepath in list_of_files:
-    filepath = Path(filepath)
+for filepath_str in list_of_files:
+    filepath = Path(filepath_str)
     filedir, filename = os.path.split(filepath)
 
     if filedir != "":

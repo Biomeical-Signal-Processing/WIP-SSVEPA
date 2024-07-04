@@ -1,8 +1,8 @@
+import numpy as np
 import pennylane as qml
-from pennylane import numpy as np
 
 # Define the device with 3 wires
-dev = qml.device('default.qubit', wires=3)
+dev = qml.device("default.qubit", wires=3)
 
 # EEG data example, assuming three components
 eeg_data = np.array([0.5, 0.5, 0.7071])

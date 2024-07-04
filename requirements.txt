@@ -1,4 +1,5 @@
 black
+-e .
 ensure==1.0.2
 flake8
 Flask
@@ -12,6 +13,7 @@ mypy
 notebook
 numpy
 pandas
+pennylane
 pylint
 pytest
 python-box==6.0.2
@@ -21,4 +23,3 @@ scikit-learn
 seaborn
 tqdm
 types-PyYAML
--e .

@@ -1,3 +1,11 @@
+"""
+Setup module for the SSVEPA Package.
+
+This script utilizes setuptools to configure package properties,
+dependencies, and additional metadata required for the distribution
+and installation of the package.
+"""
+
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
@@ -15,12 +23,13 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A dedicated python package for Steady State Visually Evoked Pontential Analysis",
+    description="A dedicated python package for "
+    "Steady State Visually Evoked Pontential Analysis",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com" f"/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),

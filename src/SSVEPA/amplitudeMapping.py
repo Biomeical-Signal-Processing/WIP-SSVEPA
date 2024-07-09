@@ -1,3 +1,7 @@
+"""
+    This Module is for testing amplitude mapping.
+"""
+
 import numpy as np
 import pennylane as qml
 

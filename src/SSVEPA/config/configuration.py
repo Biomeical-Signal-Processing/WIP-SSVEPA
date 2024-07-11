@@ -1,6 +1,9 @@
-from SSVEPA.constants import SCHEMA_FILE_PATH, CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from SSVEPA.utils.common import read_yaml, create_directories
+from SSVEPA.constants import (CONFIG_FILE_PATH, PARAMS_FILE_PATH,
+                              SCHEMA_FILE_PATH)
 from SSVEPA.entity.config_entity import DataIngestionConfig
+from SSVEPA.utils.common import create_directories, read_yaml
+
+
 class ConfigurationManager:
     def __init__(
             self,

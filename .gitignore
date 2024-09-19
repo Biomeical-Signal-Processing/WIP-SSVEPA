@@ -1,1 +1,7 @@
 .idea/
+__pycache__/
+artifacts/*
+src/SSVEPA.egg-info/*
+logs/*
+research/logs/*
+research/.ipynb_checkpoints/*

@@ -32,6 +32,20 @@ compatibility and performance in Python environments:
 - **Access**: The package provides the dataset.
 - **Download**: You can download data from http://biosigpro.xyz/overview.html#dataset
 
+## Pipeline and Its Stages Overview
+![snapshot1](screenshots/pipeline_overview.PNG)
+- **Data Ingestion**: Collecting and loading data from sources (modifiable) into the system.
+
+- **Data Validation**: Ensuring the quality and consistency of the ingested data by applying validation rules.
+
+- **Data Transformation**: Preprocessing the data, including feature engineering and scaling, to make it suitable for model training.
+
+- **Model Training**: Training machine learning models on the transformed data to create a predictive model.
+
+- **Model Evaluation**: Assessing the performance of the trained model using different evaluation metrics.
+
+- **Model Deployment**: Deploying the trained model on a cloud platform, such as **AWS (Amazon Web Services)**, to be accessed and used by the public or end-users via APIs or web services.
+
 ## Getting Started
 
 To begin using this project, clone the repository and follow the installation instructions below. The list of packages

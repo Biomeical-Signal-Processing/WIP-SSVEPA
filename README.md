@@ -33,7 +33,7 @@ compatibility and performance in Python environments:
 - **Download**: You can download data from http://biosigpro.xyz/overview.html#dataset
 
 ## Pipeline and Its Stages Overview
-![snapshot1](screenshots/pipeline_overview.PNG)
+![snapshot1](screenshots/pipeline_overview.png)
 - **Data Ingestion**: Collecting and loading data from sources (modifiable) into the system.
 
 - **Data Validation**: Ensuring the quality and consistency of the ingested data by applying validation rules.

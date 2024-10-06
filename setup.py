@@ -42,7 +42,7 @@ setuptools.setup(
         "seaborn",
         "qiskit",
         "h5py",
-        "mlflow==2.2.2",
+        "mlflow>=2.12.1",
         "notebook",
         "python-box==6.0.2",
         "pyYAML",

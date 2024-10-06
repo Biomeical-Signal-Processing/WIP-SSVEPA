@@ -2,6 +2,7 @@ from SSVEPA import logger
 from SSVEPA.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from SSVEPA.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from SSVEPA.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from SSVEPA.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 
 
 logger.info("Welcome to SSVEPA Project")
@@ -40,5 +41,16 @@ try:
 
 except Exception as e:
     logger.error(f"An error occurred during {STAGE_NAME} Stage!", exc_info=True)
+    logger.exception(e)
+    raise e
+
+STAGE_NAME = "Model Trainer"
+
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    model_trainer = ModelTrainerTrainingPipeline()
+    model_trainer.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
     logger.exception(e)
     raise e

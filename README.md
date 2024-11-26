@@ -84,3 +84,13 @@ pip install -r requirements.txt
 7. Update the pipeline
 8. Update the main.py
 9. Update the app.py
+
+
+## Dagshub
+import dagshub
+dagshub.init(repo_owner='hesamjafarian', repo_name='WIP-SSVEPA', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
